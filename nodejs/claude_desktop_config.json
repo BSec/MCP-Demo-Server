@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mcp-demo-server": {
+      "command": "node",
+      "args": ["/full/path/to/your/nodejs/server.js"],
+      "env": {
+        "OPENWEATHER_API_KEY": "your-openweather-api-key-here"
+      }
+    }
+  }
+}
